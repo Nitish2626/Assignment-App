@@ -1,0 +1,35 @@
+#solution-image{
+    width:90vw;
+    height:90vh;
+    margin:3% 5%;
+}
+#main-component{
+    margin:-6% 5%;
+}
+#main-component h2{
+    color:rgb(39, 39, 39);
+    font-size:20px;
+}
+
+@media only screen and (min-width:426px){
+    #solution-image{
+        width:100vw;
+        margin:0% 0%;
+    }
+    #main-component{
+        margin:6% 5%;
+    }
+    #main-component h2{
+        font-size: 4vw;
+    }
+}
+@media only screen and (min-width:1026px){
+    #solution-image{
+        width:60vw;
+        height:40vw;
+        margin:0% 18%;
+    }
+    #main-component h2{
+        font-size: 2vw;
+    }
+}

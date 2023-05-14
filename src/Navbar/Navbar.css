@@ -1,0 +1,110 @@
+#navbar{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width:100vw;
+    background-color: white;
+    padding:5% 0% 2% 0%;
+    top:0px;
+    position: sticky;
+    z-index: 100;
+}
+#logo{
+    width:65%;
+    height:30%;
+}
+#hamburger-icon{ 
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:8%;
+    margin-left:8%;
+    cursor:pointer;
+}
+.lines{
+    width:100%;
+    margin:8% 0%;
+    border-radius: 100px;
+    border:2px solid black;
+}
+#navbar nav{
+    display:none;
+}
+
+
+@media only screen and (min-width:426px){
+    #navbar{
+        width:100vw;
+    }
+    #logo{
+        width:30%;
+        height:20%;
+        margin-left:0%;
+    }
+    #hamburger-icon{
+        margin-left:50%;
+    }
+    .lines{
+        width:5vw;
+        margin:5% 0%;
+    }
+}
+
+@media only screen and (min-width:769px){
+    #navbar{
+        padding:3% 0% 2% 0%;
+    }
+    #logo{
+        width:20vw;
+        height:7vw;
+        margin-left:-20%;
+    }
+    #hamburger-icon{
+        display:none;
+    }
+    #navbar nav{
+        display:flex;
+        margin-left:25%;
+    }
+    #navbar nav ul{
+        display:flex;
+    }
+    #navbar nav ul li{
+        list-style-type: none;
+        margin:0% 5%;
+    }
+    #navbar nav ul li a{
+        text-decoration:none;
+        color:black;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    #links{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #down-arrow{
+        width:1.7vw;
+        height:0.8vw;
+        margin-left:7%;
+    }
+    #search-image{
+        width:2vw;
+        height:2vw;
+    }
+}
+
+@media only screen and (min-width:1025px){
+    #logo{
+        width:15vw;
+        height:5vw;
+        margin-left:-16%;
+    }
+    #hamburger-icon{
+        display:none;
+    }
+    #navbar nav{
+        margin-left:35%;
+    }
+}
